@@ -5,6 +5,8 @@ Git is a free and open source distributed version control system designed to han
 - [GIT](#git)
   - [Sections](#sections)
   - [Command lines - Local Repository](#command-lines---local-repository)
+  - [New Repository GitHub](#new-repository-github)
+  - [Push an existing repository from the command line](#push-an-existing-repository-from-the-command-line)
   - [Referencias](#referencias)
 ## Command lines - Local Repository
 - Create a new Git local repository:
@@ -23,6 +25,14 @@ Git is a free and open source distributed version control system designed to han
     1. **git diff**  Show changes between commits, commit and working tree, etc
     2. **git checkout _fileN_** Restore working tree files, also git checkout switch branches
         - _git chechout ._ restore everything from inside the directory that has changes for the last commit.
+## New Repository GitHub
+How to create a new repository on github
+![Create a new repository](images\New_repository_github01.png)
+
+## Push an existing repository from the command line
+    1. git remote add origin https://github.com/Max-Madin/My-GitHub-Demo.git
+    2. git branch -M main
+    3. git push -u origin main
 
 ## Referencias
 <https://www.atlassian.com/es/git>
