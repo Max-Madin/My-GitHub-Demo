@@ -50,6 +50,9 @@ How to create a new repository on github
 - Mix branches
     1. position on master branch _git checkout master_
     2. **git merge**
+- URL of remote branch
+  - **git remote show** regresa => _origin_ el resultado se agrega al final
+  - **git remote show _origin_**
 ## Referencias
 <https://www.atlassian.com/es/git>
 <https://git-scm.com/book/en/v2>
